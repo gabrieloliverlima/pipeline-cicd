@@ -25,7 +25,7 @@ jobs:
   test-unid:
     name: Executando teste de Unidade
     needs: [build]
-    uses: gabrieloliverlima/pipeline-cicd/.github/workflows/test-unid.yml@main
+    uses: gabrieloliverlima/pipeline-cicd/.github/workflows/tests.yml@main
 
   
   release:
