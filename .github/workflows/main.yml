@@ -3,9 +3,9 @@ run-name: Pipeline CI/CD executada por ${{ github.actor }} em ${{ github.run_num
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   build:
