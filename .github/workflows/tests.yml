@@ -39,6 +39,6 @@ jobs:
             dotnet-version: "8.0.300"
         - name: Execução do Teste de Integração
           working-directory: ./src
-          run: dotnet test ./src/Review-Filmes.Test.Integration/Review-Filmes.Test.Integration.csproj
+          run: dotnet test ./Review-Filmes.Test.Integration/Review-Filmes.Test.Integration.csproj
           env:
             ConnectionStrings__DefaultConnections: "Host=localhost;Port=5432;Database=review-filmes;Username=review;Password=postgrespwd"  
