@@ -25,6 +25,7 @@ jobs:
   release:
     name: Criação da Release
     runs-on: unbuntu-latest
+    needs: [build]
     steps:
       - name: Obtendo o código do projeto
         uses: actions/checkout@v4
